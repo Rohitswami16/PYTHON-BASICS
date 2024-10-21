@@ -1,0 +1,17 @@
+s1 = "hello"
+s2 = s1+("World")
+
+print(s1 )
+print(s2 )
+
+s3 = "Python"
+s4 = "Python"
+print(s3 is s4)
+print(id(s3))
+print(id(s4))
+
+# 10
+
+num1 = int(input("enter num 1 :"))
+num2 = int(input("enter num 2 :"))
+print(num1+num2)
