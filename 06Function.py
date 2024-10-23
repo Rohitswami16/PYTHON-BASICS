@@ -30,7 +30,7 @@ def sub(a, b):
     return a - b  # Return the difference between a and b
 
 # Calling the sub function and printing the subtraction result
-print("Substraction result:", sub(20, 10))
+print("Subtraction result:", sub(20, 10))
 
 # This function takes two parameters and prints their multiplication result
 def mul(a, b):
@@ -47,3 +47,4 @@ def div():
 
 # Calling the div function and printing the division result
 print("Division Result:", div())
+
