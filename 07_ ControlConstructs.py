@@ -81,3 +81,5 @@ num = int(input())
 # Using a 'for' loop to print the multiplication table of the entered number
 for i in range(1, 11):
     print(num, "x", i, "=", (num * i))
+
+
