@@ -10,6 +10,7 @@ marks = int(input("Enter the Marks: "))
 if marks > 80:
     print("Welcome to tech club")
 
+
 # ------------------------------------------
 # CONDITIONAL STATEMENT (if-else)
 # Prompting the user to enter a number to check if it's even or odd
