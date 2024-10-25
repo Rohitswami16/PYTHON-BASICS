@@ -155,5 +155,3 @@ while attempt != "yes":
     
     print("Continue? yes or no")
     attempt = input().strip().lower()  # Update attempt; convert to lowercase for case-insensitivity
-
-
