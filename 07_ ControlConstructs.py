@@ -125,7 +125,7 @@ for i in range(50):
 for i in range(25, 10, -3):
     print(i)
 
-# ------------------------------------------
+
 # ------------------------------------------
 # WHILE LOOPS
 
@@ -145,6 +145,7 @@ while i <= 10:
     i = i + 1
 
 # ------------------------------------------
+
 # Loop asking the user to enter a number until they choose to continue with "yes"
 attempt = "no"
 while attempt != "yes":
