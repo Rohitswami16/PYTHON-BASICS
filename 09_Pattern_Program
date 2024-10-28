@@ -46,6 +46,7 @@ for i in range(4, 0, -1):  # Loop from 4 down to 1
     print()
 
 # Expected output:
+
 # 4 4 4 4
 # 3 3 3
 # 2 2
