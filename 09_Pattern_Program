@@ -1,0 +1,51 @@
+# First pattern: Right-angled triangle of stars
+for i in range(6):
+    # Inner loop prints '*' i times for each row
+    for j in range(i):
+        print("*", end=' ')
+    # Move to the next line after each row
+    print()
+
+# Expected output:
+# *
+# * *
+# * * *
+# * * * *
+# * * * * *
+
+# ------------------------------------------
+
+# Second pattern: Hollow square of stars
+for i in range(5):
+    for j in range(5):
+        # Print '*' for the border cells (first and last row/column)
+        if i == 0 or i == 4 or j == 0 or j == 4:
+            print("*", end=' ')
+        else:
+            # Print a space for inner cells to create a hollow effect
+            print(" ", end=' ')
+    # Move to the next line after each row
+    print()
+
+# Expected output:
+# * * * * *
+# *       *
+# *       *
+# *       *
+# * * * * *
+
+# ------------------------------------------
+
+# Third pattern: Inverted triangle with numbers
+for i in range(4, 0, -1):  # Loop from 4 down to 1
+    # Inner loop prints the current value of i, i times
+    for j in range(i):
+        print(i, end=' ')
+    # Move to the next line after each row
+    print()
+
+# Expected output:
+# 4 4 4 4
+# 3 3 3
+# 2 2
+# 1
