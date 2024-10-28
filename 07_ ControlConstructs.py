@@ -158,3 +158,36 @@ while attempt != "yes":
 
 # <-----------------------------------------------------------------------JUMP STATEMENTS---------------------------------------------------------------------------->
 
+# Loop through numbers from 1 to 5
+for i in range(1, 6):
+    # If i equals 4, exit the loop entirely
+    if i == 4:
+        break
+    # Otherwise, print the current value of i
+    print(i)
+# Expected output: 1, 2, 3 (the loop stops when i is 4)
+
+# ------------------------------------------
+
+# Loop through numbers from 1 to 5
+for i in range(1, 6):
+    # If i equals 4, skip this iteration and continue to the next
+    if i == 4:
+        continue
+    # Otherwise, print the current value of i
+    print(i)
+# Expected output: 1, 2, 3, 5 (the loop skips printing 4)
+
+# ------------------------------------------
+
+# Loop through numbers from 1 to 3
+for number in range(1, 4):
+    # If number equals 2, do nothing and move to the next statement
+    if number == 2:
+        pass  
+    else:
+        # Otherwise, print the current value of number
+        print(number)
+# Expected output: 1, 3 (number 2 is ignored due to the pass statement)
+
+
