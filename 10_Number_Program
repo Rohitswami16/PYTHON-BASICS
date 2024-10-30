@@ -1,0 +1,17 @@
+# Function to calculate the sum of digits of a given number
+def findSum(n):
+    sum = 0  # Initialize sum to store the sum of digits
+    
+    # Loop to extract and sum each digit of the number
+    while n != 0:
+        dig = n % 10       # Get the last digit of n
+        sum = sum + dig    # Add the extracted digit to sum
+        n = n // 10        # Remove the last digit from n by integer division
+    
+    return sum  # Return the sum of the digits
+
+# Test the function with an example
+sum = findSum(65)
+print(f"The sum of the digits is {sum}")
+
+OUTPUT: The sum of the digits is is 11
