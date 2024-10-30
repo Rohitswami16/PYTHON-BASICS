@@ -33,3 +33,9 @@ for i in range(1, n + 1):
     temp = a + b  # Calculate the next term in the sequence
     a = b         # Move 'b' to 'a' for the next iteration
     b = temp      # Update 'b' to the new term (temp)
+
+INPUT : 6
+OUTPUT: 0 1 1 2 3 5
+
+#-------------------------------------------------------------------------------------
+
