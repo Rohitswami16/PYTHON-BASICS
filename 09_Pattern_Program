@@ -73,3 +73,58 @@ ___xx
 __xxx
 _xxxx
 xxxxx
+
+# ------------------------------------------------------------------------------------
+# Take the number of rows as input from the user
+rows = int(input("Enter the number of rows: "))
+
+# Take the number of columns as input from the user
+columns = int(input("Enter the number of columns: "))
+
+# Outer loop for iterating through each row
+for i in range(rows):
+    # Inner loop for iterating through each column in the current row
+    for j in range(columns):
+        # Print '*' without newline to create a continuous row of stars
+        print('*', end='')
+    # After finishing a row, print a newline to start the next row
+    print()
+
+# Expected output:
+*****
+*****
+*****
+# ------------------------------------------------------------------------------------
+
+
+
+
+# ------------------------------------------------------------------------------------
+
+
+
+
+
+# ------------------------------------------------------------------------------------
+
+
+
+
+
+# ------------------------------------------------------------------------------------
+
+
+
+
+
+
+# ------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+# ------------------------------------------------------------------------------------
