@@ -14,7 +14,7 @@ for i in range(6):
 # * * * *
 # * * * * *
 
-# ------------------------------------------
+# -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Second pattern: Hollow square of stars
 for i in range(5):
@@ -36,7 +36,7 @@ for i in range(5):
 # *       *
 # * * * * *
 
-# ------------------------------------------
+# -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Third pattern: Inverted triangle with numbers
 for i in range(4, 0, -1):  # Loop from 4 down to 1
@@ -53,7 +53,8 @@ for i in range(4, 0, -1):  # Loop from 4 down to 1
 # 2 2
 # 1
 
-# ------------------------------------------
+# -----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 # Loop to determine the number of rows in the triangle
 for i in range(1, 6):
     # Inner loop to print spaces for alignment, decreasing each row
@@ -74,7 +75,8 @@ __xxx
 _xxxx
 xxxxx
 
-# ------------------------------------------------------------------------------------
+# -----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 # Take the number of rows as input from the user
 rows = int(input("Enter the number of rows: "))
 
@@ -94,4 +96,29 @@ for i in range(rows):
 *****
 *****
 *****
-# ------------------------------------------------------------------------------------
+# -----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+for i in range(1, 6):               # Outer loop for each row, iterating from 1 to 5.
+    for j in range(1, 6 - i):       # Inner loop to print leading dashes, based on the current row number.
+        print(" ", end='')          # Print '-' without a newline to create the correct alignment.
+    
+    x = 1                           # Initialize x to 1, representing the start of the number sequence.
+    
+    for k in range(1, (2 * i)):     # Inner loop to print numbers, with range (2*i) creating a pyramid effect.
+        print(k, end='')            # Print the current value of k without newline, forming the increasing and decreasing pattern.
+        
+        if k < i:                   # If we haven't reached the middle of the pyramid row, increase x.
+            x = x + 1               # Increment x for the ascending part of the row.
+        else:                       # After reaching the middle, start the descending pattern.
+            x = x - 1               # Decrement x for the descending part of the row.
+    
+    print()                         # Move to the next line after completing the current row.
+
+# Expected output:
+
+    1
+   123
+  12345
+ 1234567
+123456789
+# -----------------------------------------------------------------------------------------------------------------------------------------------------------------
