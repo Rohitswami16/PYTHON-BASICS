@@ -67,3 +67,24 @@ print(f"even list : {list1}")
 print(f"odd list : {list2}")
 
 # ------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Create an empty list
+ls3 = []
+
+# Get the number of elements from the user
+n = int(input("Enter the number of elements: "))
+
+# Loop to get user input for each element
+for i in range(1, n):
+    # Add each number entered by the user to the list
+    ls3.append(int(input(f"Enter the {i} number: ")))
+
+# Print the list of numbers
+print(ls3)
+
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
