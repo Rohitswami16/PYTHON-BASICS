@@ -13,7 +13,7 @@ def findSum(n):
 # Test the function with an example
 sum = findSum(65)
 print(f"The sum of the digits is {sum}")
-
+   
 OUTPUT: The sum of the digits is is 11
 
 #-------------------------------------------------------------------------------------
