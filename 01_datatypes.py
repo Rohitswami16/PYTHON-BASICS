@@ -17,3 +17,5 @@ print(type(str))  # Output the data type of 'str' (which is str, not float)
 isFresher = True  
 print(isFresher)  # Output the value of 'isFresher'
 print(type(isFresher))  # Output the data type of 'isFresher' (which is bool)
+
+
