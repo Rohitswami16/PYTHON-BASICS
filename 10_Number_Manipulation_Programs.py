@@ -16,7 +16,7 @@ print(f"The sum of the digits is {sum}")
    
 OUTPUT: The sum of the digits is is 11
 
-#-------------------------------------------------------------------------------------
+#------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Get the number of terms for the Fibonacci sequence from user input
 n = int(input("Enter the number of terms: "))
