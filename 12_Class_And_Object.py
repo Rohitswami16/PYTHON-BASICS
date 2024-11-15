@@ -47,7 +47,6 @@ class Student:
     def giveInterviews(self):
         print("Student is giving interviews")
 
-
 # Create an object of the Student class
 student = Student()
 student.define_status()  # Set the initial attributes
