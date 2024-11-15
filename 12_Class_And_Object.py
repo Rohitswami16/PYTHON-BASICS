@@ -80,7 +80,6 @@ class Car:
         self.price = 205100  # Price of the car
         print("Driving the car")
 
-
 # Create an object of the Car class
 c = Car()
 c.drive()  # Call the drive method
