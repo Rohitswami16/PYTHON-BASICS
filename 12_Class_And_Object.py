@@ -7,7 +7,7 @@ class Mentor:
         self.salary = 25000  # Salary of the mentor
 
     # Method to simulate teaching by the mentor
-    def teaching(self):
+    def teaching(self): 
         print(f"{self.name} is teaching {self.tech}")
 
     # Method to indicate the mentor grooms students
