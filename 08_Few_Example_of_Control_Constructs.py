@@ -18,7 +18,6 @@ if originalnum == int(newnum):  # Convert 'newnum' back to an integer for compar
 else:
     print("Not a palindrome")  # Print if the number is not a palindrome
 
-
 # ------------------------------------------
 # Check if the entered number is a palindrome using a mathematical approach
 
