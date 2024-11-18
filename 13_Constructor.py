@@ -22,7 +22,7 @@ m.teach()
 # Python
 # Mentor teaches
 
-# -------------------------------------------------------------------------
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Example 2: Mentor class with dynamic attribute initialization
 class Mentor:
@@ -48,7 +48,7 @@ m.teach()
 # Java
 # Mentor teaches
 
-# -------------------------------------------------------------------------
+# -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Example 3: Taking mentor attributes as input from the user
 class Mentor:
@@ -69,9 +69,9 @@ tech = input("Enter the tech of a mentor: ")  # Example Input: "C++"
 m = Mentor(name, tech)
 
 # Displaying mentor's attributes and calling the teach method
-print(f"Name: {m.name}")  # Output: Name: Alice
-print(f"Tech: {m.tech}")  # Output: Tech: C++
-m.teach()                 # Output: Mentor teaches
+print(f"Name: {m.name}")  
+print(f"Tech: {m.tech}")  
+m.teach()                
 
 # Sample Output for Example 3:
 # Enter the name of a mentor: Alice
