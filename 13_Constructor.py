@@ -13,9 +13,9 @@ class Mentor:
 m = Mentor()
 
 # Displaying mentor's default attributes and calling the teach method
-print(m.name)  # Output: ABC
-print(m.tech)  # Output: Python
-m.teach()      # Output: Mentor teaches
+print(m.name)  
+print(m.tech)  
+m.teach()     
 
 # Sample Output for Example 1:
 # ABC
