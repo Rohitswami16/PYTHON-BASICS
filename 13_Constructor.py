@@ -39,9 +39,9 @@ class Mentor:
 m = Mentor("DEF", "Java")
 
 # Displaying mentor's custom attributes and calling the teach method
-print(m.name)  # Output: DEF
-print(m.tech)  # Output: Java
-m.teach()      # Output: Mentor teaches
+print(m.name)  
+print(m.tech)  
+m.teach()      
 
 # Sample Output for Example 2:
 # DEF
