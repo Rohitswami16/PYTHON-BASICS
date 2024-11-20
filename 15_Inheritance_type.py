@@ -97,6 +97,7 @@ c.honk()    # Specific to Car
 # The Vehicle is starting
 # The car is honking, Beep beep!
 # ------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 # Multiple Inheritance
 
 # Singer class with a sing method
@@ -152,6 +153,7 @@ ec.charge()  # Specific to ElectricCar
 # The electric car is charging
 
 # ------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 # Hierarchical Inheritance
 
 # Appliance class as a base class with a plug_in method
@@ -186,6 +188,7 @@ fridge.cool_food()     # Specific to Refrigerator
 # The refrigerator is cooling food.
 
 # ------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 # Hybrid Inheritance
 
 # Vehicle class with a start method
