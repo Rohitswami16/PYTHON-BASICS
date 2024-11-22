@@ -90,3 +90,59 @@ access_robo(d)  # Calls common and specific methods for DriverRobo
 # Robo can walk
 # Robo can charge
 # Robo can drive  # Unique to DriverRobo
+
+# -----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Demonstrates method overloading using variable arguments (*args)
+class Addition:
+    def add(self, *args):
+        print("Sum =", sum(args))  # Computes the sum of all arguments
+
+
+a = Addition()
+a.add(10, 20)               # Calls add with two arguments
+a.add(10, 20, 30)           # Calls add with three arguments
+a.add(10, 20, 30, 40)       # Calls add with four arguments
+
+# Expected Output:
+# Sum = 30
+# Sum = 60
+# Sum = 100
+
+# -----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Circle class demonstrates operator overloading
+class Circle:
+    def __init__(self, rad):
+        self.rad = rad  # Initializes the radius
+
+    def __add__(self, other):
+        return self.rad + other.rad  # Overloads '+' for adding radii of two Circle objects
+
+    def __str__(self):
+        return f"Circle object with radius {self.rad}"  # String representation of a Circle object
+
+
+# Create Circle instances
+c1 = Circle(10.5)
+print("Area of c1: ", (3.14 * c1.rad * c1.rad))  # Calculate and print area of c1
+
+c2 = Circle(20.5)
+print("Area of c2: ", (3.14 * c2.rad * c2.rad))  # Calculate and print area of c2
+
+# Demonstrate overloaded operators
+print("Sum of radii = ", (c1.rad + c2.rad))  # Adding radii as floats
+print("Sum of radii = ", (c1 + c2))         # Adding using overloaded '+' operator
+
+# Print Circle objects (uses the overloaded __str__ method)
+print(c1)
+print(c2)
+
+# Expected Output:
+# Area of c1:  346.185
+# Area of c2:  1320.865
+# Sum of radii =  31.0
+# Sum of radii =  31.0
+# Circle object with radius 10.5
+# Circle object with radius 20.5
+
