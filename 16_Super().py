@@ -11,7 +11,6 @@ class Parent:
     def fun(self):
         print("Parent fun")  # Method in Parent class
 
-
 # Derived class: Child inherits Parent
 class Child(Parent):
     def __init__(self):
@@ -25,7 +24,6 @@ class Child(Parent):
         super().fun()  # Calls the Parent class method 'fun'
         print("Child fun")  # Child-specific implementation of 'fun'
 
-
 # Object creation and method calls
 c = Child()  # Instantiate Child, triggers constructors
 c.fun()      # Calls 'fun' method of Child, which also calls Parent's 'fun'
@@ -38,6 +36,7 @@ c.fun()      # Calls 'fun' method of Child, which also calls Parent's 'fun'
 # Parent fun
 # Child fun
 
+# -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Second example with multiple inheritance
 class Singer:
