@@ -10,7 +10,7 @@ def fun():
     print("Instruction 1")
     print("Instruction 2")
     print("Instruction 3")
-
+    
 # Testing the fun function by calling it
 print("testing")
 fun()
