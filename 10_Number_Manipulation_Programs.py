@@ -9,7 +9,7 @@ def findSum(n):
         n = n // 10        # Remove the last digit from n by integer division
     
     return sum  # Return the sum of the digits
-
+    
 # Test the function with an example
 sum = findSum(65)
 print(f"The sum of the digits is {sum}")
