@@ -22,4 +22,3 @@ print(type(isFresher))  # Output the data type of 'isFresher' (which is bool)
 
 
 
-
