@@ -18,5 +18,3 @@ isFresher = True
 print(isFresher)  # Output the value of 'isFresher'
 print(type(isFresher))  # Output the data type of 'isFresher' (which is bool)
 
-
-
