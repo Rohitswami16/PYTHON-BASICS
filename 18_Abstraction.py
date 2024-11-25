@@ -5,7 +5,7 @@ class Animal(ABC):  # Added ABC as the base class for using @abstractmethod
     @abstractmethod
     def eat(self):  # Abstract method to be implemented by subclasses
         pass
-
+        
     @abstractmethod
     def sleep(self):
         pass
