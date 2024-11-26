@@ -76,3 +76,39 @@ print("Name:", st2.get_name())
 # Name: ABC
 
 # -----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Private Members (__roll):
+# Declared with a double underscore (__), making them private.
+# Private members can only be accessed using name mangling: (_ClassName__variable)
+
+# Protected Members (_cgpa):
+# Declared with a single underscore (_), 
+# indicating they are intended for internal use but can still be accessed directly.
+                                                                   
+# Public Members (name):
+# Declared without any underscores and are accessible directly.
+
+class Student:
+    def __init__(self):
+        self.__roll = 111  # private
+        self._cgpa = 7.55  # protected
+        self.name = "ABC"  # public
+
+st = Student()
+
+# Accessing private members using Name Mangling (_ClassName__variable)
+print(st._Student__roll)  # accessing private member using name mangling
+# print(st.__roll)  # ERROR: Direct access to private members is not allowed
+
+# Accessing protected members (using _variable)
+print(st._cgpa)  # accessing protected member
+
+# Accessing public members (direct access)
+print(st.name)  # accessing public member
+
+# Expected Output:
+# 111
+# 7.55
+# ABC
+
+# -----------------------------------------------------------------------------------------------------------------------------------------------------------------
