@@ -4,7 +4,6 @@ import threading
 nums = [1, 2, 3, 4, 5]
 letters = ['a', 'b', 'c', 'd', 'c']
 
-
 def display_digit(nums):
     for i in nums:
         print(i)
