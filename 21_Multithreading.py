@@ -1,32 +1,83 @@
+# Program 1: Single-Threading Example
+# This program demonstrates the use of single-threading by sequentially executing two tasks:
+# 1. Displaying digits from a list with a delay.
+# 2. Displaying letters from a list with a delay.
+# Each task runs one after the other, showing the nature of single-threaded execution.
+
+import time
+
+# Lists to iterate through
+nums = [1, 2, 3, 4, 5]
+letters = ['a', 'b', 'c', 'd', 'e']
+
+# Function to display digits with a delay
+def display_digit(nums):
+    for i in nums:
+        print(i)  # Print the current number
+        time.sleep(1)  # Pause for 1 second
+
+# Function to display letters with a delay
+def display_letters(letters):
+    for i in letters:
+        print(i)  # Print the current letter
+        time.sleep(1)  # Pause for 1 second
+
+# Main Program
+# Call the functions one after another to demonstrate single-threading
+display_digit(nums)  # First task: Display digits
+display_letters(letters)  # Second task: Display letters
+
+# Excepted Output
+# 1
+# 2
+# 3
+# 4
+# 5
+# a
+# b
+# c
+# d
+# e
+
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Program 2: Multi-Threading Example
+# This program demonstrates the use of multi-threading by concurrently executing two tasks:
+# 1. Displaying digits from a list with a delay.
+# 2. Displaying letters from a list with a delay.
+# Both tasks are executed in parallel using threading.
+
 import time
 import threading
 
+# Lists to iterate through
 nums = [1, 2, 3, 4, 5]
-letters = ['a', 'b', 'c', 'd', 'c']
+letters = ['a', 'b', 'c', 'd', 'e']
 
+# Function to display digits with a delay
 def display_digit(nums):
     for i in nums:
-        print(i)
-        time.sleep(3)
-      
+        print(i)  # Print the current number
+        time.sleep(2)  # Pause for 2 seconds
+
+# Function to display letters with a delay
 def display_letters(letters):
     for i in letters:
-        print(i)
-        time.sleep(3)
-      
-# Create threads, passing the functions and their arguments
+        print(i)  # Print the current letter
+        time.sleep(2)  # Pause for 2 seconds
+
+# Creating threads
+# Thread t1 is assigned the task of displaying digits
 t1 = threading.Thread(target=display_digit, args=(nums,))
+# Thread t2 is assigned the task of displaying letters
 t2 = threading.Thread(target=display_letters, args=(letters,))
 
-# Start the threads
-t1.start()
-t2.start()
+# Starting threads
+t1.start()  # Start thread t1
+t2.start()  # Start thread t2
 
-# Wait for threads to complete
+# Ensuring main program waits for both threads to complete
 t1.join()
 t2.join()
-
-print("Both threads have finished.")
 
 # Excepted Output
 # 1
@@ -38,8 +89,7 @@ print("Both threads have finished.")
 # 4
 # d
 # 5
-# c
-# Both threads have finished.
+# e
 
 # ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
