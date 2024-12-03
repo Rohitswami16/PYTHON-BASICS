@@ -8,7 +8,7 @@ class Mentor:
         # Initializes a mentor with default values
         self.name = "ABC"
         self.tech = "Python"
-
+        
 # Creating an instance of the Mentor class
 m = Mentor()
 
