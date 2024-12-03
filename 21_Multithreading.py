@@ -4,7 +4,7 @@
 # 2. Displaying letters from a list with a delay.
 # Each task runs one after the other, showing the nature of single-threaded execution.
 
-import time
+import time 
 
 # Lists to iterate through
 nums = [1, 2, 3, 4, 5]
