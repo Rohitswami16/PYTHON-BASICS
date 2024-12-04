@@ -17,7 +17,7 @@ class Mentor:
     # Method to display the mentor's information
     def mentorInfo(self):
         print(f"Name: {self.name}, Tech: {self.tech}, Salary: {self.salary}")
-
+        
 # Create an object of the Mentor class
 m = Mentor()
 m.define_states()  # Set the initial states
