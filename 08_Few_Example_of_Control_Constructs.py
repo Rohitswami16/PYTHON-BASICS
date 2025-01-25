@@ -38,7 +38,6 @@ if originalnum == newnum:  # Compare 'originalnum' and 'newnum' to see if they m
 else:
     print("Not a palindrome")  # Print if the number is not a palindrome
 
-
 # ------------------------------------------
 # Print a grid of asterisks using nested loops
 
