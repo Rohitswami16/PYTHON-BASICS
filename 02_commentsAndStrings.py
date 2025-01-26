@@ -21,7 +21,6 @@ print(s[5])
 print(s[-1])           # Last character
 print(s[-3])           # 3rd last character
 
-
 '''String slicing in Python
   
    stringname[starting index : ending index]'''
