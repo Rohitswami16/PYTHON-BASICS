@@ -7,7 +7,7 @@ marks = int(input("Enter the Marks: "))
 # Using 'if' to check if marks are greater than 80 to welcome them to the tech club
 if marks > 80:
     print("Welcome to tech club")
-# ---------------------------------------------------------------------------------------
+# -----------------------------------------------------------------------------------------
 
 # CONDITIONAL STATEMENT (if-else)
 # Prompting the user to enter a number to check if it's even or odd
@@ -39,7 +39,7 @@ else:
     # No gift if marks are below 40
     print("Get lost")
 
-# ------------------------------------------
+# -----------------------------------------------------------------------------------------
 
 # Asking the user to enter an amount to calculate the discount
 print("Enter the Amount")
@@ -64,7 +64,7 @@ else:
 # Displaying the final amount after discount
 print("Final Amount:", final_Amount)
 
-# ------------------------------------------
+# -----------------------------------------------------------------------------------------
 # Nested if else if
 # Check if free tonight and if friends are available for dinner
 free_tonight = True
@@ -85,7 +85,7 @@ else:
 for i in range(4):
     print("Hello world!")
 
-# ------------------------------------------
+# -----------------------------------------------------------------------------------------
 # Asking the user to enter a number for generating a multiplication table
 print("Enter a number")
 num = int(input())
@@ -94,28 +94,28 @@ num = int(input())
 for i in range(1, 11):
     print(num, "x", i, "=", (num * i))
 
-# ------------------------------------------
+# -----------------------------------------------------------------------------------------
 # Print numbers from 1 to 49 in steps of 5
 # Difference: Starts at 1, increments by 5, ends before 50
 # Example Output: 1, 6, 11, 16, ..., 46
 for i in range(1, 50, 5):
     print(i)
 
-# ------------------------------------------
+# -----------------------------------------------------------------------------------------
 # Print numbers from 1 to 24
 # Difference: Starts at 1, increments by 1 (default), ends at 24
 # Example Output: 1, 2, 3, ..., 24
 for i in range(1, 25):
     print(i)
 
-# ------------------------------------------
+# -----------------------------------------------------------------------------------------
 # Print numbers from 0 to 49
 # Difference: Starts at 0, increments by 1 (default), ends at 49
 # Example Output: 0, 1, 2, ..., 49
 for i in range(50):
     print(i)
 
-# ------------------------------------------
+# -----------------------------------------------------------------------------------------
 # Print numbers from 25 down to 11 in steps of -3
 # Difference: Starts at 25, decrements by 3, ends just above 10
 # Example Output: 25, 22, 19, ..., 13
@@ -123,7 +123,7 @@ for i in range(25, 10, -3):
     print(i)
 
 
-# ------------------------------------------
+# -----------------------------------------------------------------------------------------
 # WHILE LOOPS
 
 # Prompt the user to enter a number
@@ -141,7 +141,7 @@ while i <= 10:
     # Increment 'i' by 1 to move to the next multiplier in the next iteration
     i = i + 1
 
-# ------------------------------------------
+# -----------------------------------------------------------------------------------------
 
 # Loop asking the user to enter a number until they choose to continue with "yes"
 attempt = "no"
@@ -164,7 +164,7 @@ for i in range(1, 6):
     print(i)
 # Expected output: 1, 2, 3 (the loop stops when i is 4)
 
-# ------------------------------------------
+# -----------------------------------------------------------------------------------------
 
 # Loop through numbers from 1 to 5
 for i in range(1, 6):
@@ -175,7 +175,7 @@ for i in range(1, 6):
     print(i)
 # Expected output: 1, 2, 3, 5 (the loop skips printing 4)
 
-# ------------------------------------------
+# -----------------------------------------------------------------------------------------
 
 # Loop through numbers from 1 to 3
 for number in range(1, 4):
