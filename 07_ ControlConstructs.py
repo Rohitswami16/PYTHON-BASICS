@@ -1,5 +1,3 @@
-# ------------------------------------------
-
 # <-------------------------------------------------------------------Control Constructs in Python------------------------------------------------------------>
 # CONDITIONAL STATEMENT (if)
 # Welcoming the user to college and checking their marks for tech club eligibility
