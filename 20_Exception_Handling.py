@@ -1,4 +1,3 @@
-
 # Program 1: Basic Division Function (Without Exception Handling)
 # This program performs division of two numbers without handling any exceptions.
 # If a division by zero occurs, the program will terminate with an error.
