@@ -5,7 +5,7 @@ class Mentor:
         self.name = "ABC"  # Name of the mentor
         self.tech = "Python"  # Technology expertise
         self.salary = 25000  # Salary of the mentor
-
+        
     # Method to simulate teaching by the mentor
     def teaching(self): 
         print(f"{self.name} is teaching {self.tech}")
